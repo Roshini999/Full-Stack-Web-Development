@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+   <meta name="viewreport" content="width=width-device, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <title>Billing</title>
+
+</head>
+<body>
+ <div class="container">
+        <div class="row">
+            <div class="col-8">
+            <h2>Billing address</h2>
+            <h style="margin-left:3px;">First Name</h>
+            <h style="margin-left:320px;"> Surname</h>
+            <input type="text"  class="form-control" style="margin-top:10px;margin-right: 68px;width:350px"> 
+            <input type="text"  class="form-control" style="margin-left:400px;width:350px;margin-top:-38px">
+            <br><h>Username</h>
+            <div class="input-group" style="width:763px;">
+            <input style="margin-top:10px;" type="submit" value="@" class="btn btn-secondary"> <input style="margin-top:10px;" type="text" placeholder="Username" class="form-control placeholder=">
+            </div>
+            <br></div><h>Email </h><h style="margin-left:42px;margin-top:-24px;color:grey">(Optional)</h>
+           <input type="text"  class="form-control" placeholder="you@example.com" style="width:763px;margin-top:10px;margin-right: 128px;margin-left: 10px;">
+            </div>
+            <br><h>Address</h>
+            <input type="text"  class="form-control" placeholder="1234 Main St" style="width:763px;margin-top:10px;margin-right: 128px;">
+            <br><h>Address 2 </h><h style="margin-left:1px;margin-top:-24px;color:grey">(Optional)</h>
+             <input type="text"  class="form-control" placeholder="Apartment or suite" style="width:763px;margin-top:10px;margin-right: 128px;">
+            <br><label style="margin-right:4px;" for="country">Country</label>
+            <select placeholder="choose...." style="margin-top: 4px;margin-top:10px;width:150px"id="country">
+             <option value="volvo">India</option>
+             <option value="saab">Belgium</option>
+             <option value="mercedes">Germany</option>
+              <option value="audi">Vietnam</option>
+            </select>
+             <h style="margin-left:15px;">State</h>
+            <select style="margin-left: 5px;margin-top: -50px;margin-top:10px;"id="states">
+              <option value="volvo">Andhra Pradesh</option>
+             <option value="saab">Karnataka</option>
+            <option value="mercedes">Tamil Nadu</option>
+             <option value="audi">West Bengal</option>
+             </select>
+             <h style="margin-left:20px">Zip</h>
+             <input type="text"  class="form-control" style="width:130px;margin-top:-26px;margin-right: 68px;padding-top: 2px;padding-bottom: 0px;margin-left: 475px;">
+              <hr width="761px" size="1" color="black">
+             <div>
+            <input type="checkbox" id="scales" name="scales" checked>
+            <label for="scales">Shipping address is the same as my billing address</label>
+             </div>
+             <div>
+             <input type="checkbox" id="scales" name="scales" checked>
+             <label for="scales">Save this information for next order</label>
+            </div>
+             <hr width="761px" size="1" color="black">
+             <h2>Payment</h2>
+            <input type="radio" class="btn btn-primary"> 
+             <h>Credit Card</h>
+            <br> <input type="radio" class="btn btn-primary"> 
+            <h>Debit Card</h>
+           <br> <input type="radio" class="btn btn-primary"> 
+            <h>Phone Pay</h> 
+            <br><br><h>Name on Card</h>
+            <h style="margin-left:244px">Card Number</h>
+          <input type="text"  class="form-control" style="width:320px;margin-top:10px;margin-right: 68px;">
+          <input type="text"  class="form-control" style="width:320px;margin-top:-38px;margin-left: 350px;margin-bottom: 10px;">
+          <h style="color:gray">Full name as displayed on card</h>
+         <br><br><h>Expiration</h>
+         <h style="margin-left: 240px;">CVV</h>
+         <input type="text"  class="form-control" style="width:200px;margin-top:10px;margin-right: 68px;">
+        <input type="text"  class="form-control" style="width:150px;margin-top:-38px;margin-left: 315px;">
+        <hr width="761px" size="1" color="black">
+         <div>
+        <input style="width:761px;" type="submit" value="Continue to checkout" class="btn btn-primary btn-lg">
+        </div></div></div></div>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
